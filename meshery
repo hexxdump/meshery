@@ -186,5 +186,5 @@ then
     printf "\nRun \"mesheryctl system start\" to start Meshery.\n"
     exit 0
 fi
-printf "\nStarting Meshery...\n"
+printf "\nDeploying Meshery...\n"
 mesheryctl system start --yes --platform $PLATFORM
