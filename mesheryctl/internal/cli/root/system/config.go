@@ -36,6 +36,7 @@ import (
 	"github.com/spf13/viper"
 )
 
+
 func getContexts(configFile, tokenPath string) ([]string, error) {
 	client := &http.Client{}
 
